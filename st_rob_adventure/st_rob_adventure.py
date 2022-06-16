@@ -1,8 +1,8 @@
-#emma
+#my code
 import random
 import os
 import hangman
-#danica
+#danica's code
 schedule = """
 +------------------------------+"
 |                              |
@@ -21,7 +21,7 @@ schedule = """
 |  --------------------------  |
 |                              |
 +------------------------------+"""
-# emma
+# my code
 current_location = "foyer"
 inventory = []
 original_order = []
@@ -244,7 +244,7 @@ while True:
             print("Please enter a valid letter option.")
             print()
             input("press ENTER TO CONTINUE") 
-    #danica
+    #danica's code
     if current_location == "math class":
         os.system("cls")
         if 'N' not in inventory:
@@ -312,7 +312,7 @@ while True:
                 print()
                 input("press ENTER to return to the hallway")
                 current_location = "first floor hallway"
-    # natalie
+    # natalie's code
     while current_location == "second floor hallway":
         print("You are in the second floor hallway.")
         print("Pick an option:")
